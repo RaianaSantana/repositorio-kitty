@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#img.menu {
+   margin-right: 20px;
+}
+
+body {
+  background-image: linear-gradient(rgb(92, 92, 92), rgb(58, 58, 58));
+  background-attachment: fixed;
+  overflow-x: hidden;
+   
+}
+
+h1 {
+    text-align: center;
+    color: rgba(255, 83, 83, 0.808);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    font-size: 3em;
+    text-shadow: 5px 5px 5px rgba(65, 12, 12, 0.575);
+ 
+}
+
+header > p {
+    color: white;
+    text-align: center;
+
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+}
+
+header { 
+   background-image: linear-gradient(rgb(143, 142, 142), rgb(65, 64, 64));
+   border-radius: 0px 0px 10px 10px;
+
+   
+   
+   
+}
+
+main {
+    background-color: rgb(201, 194, 194);
+    max-width: 980px;
+    min-width: 400;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+
+   
+}
+
+article {
+    background-color: rgb(168, 168, 168);
+    max-width: 980px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 400px;
+
+   
+
+}
+
+
+footer {
+   background-image: linear-gradient(to right, rgb(170, 169, 169),transparent);
+    margin: auto;
+    padding: 2px;
+    border-radius: 20px;
+    margin-top: 25px;
+   
+    
+}
+
+aside {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+#cat {
+   background-image: linear-gradient(red, white);
+   display: inline-block;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 50px;
+    border: 10px inset rgb(0, 0, 0);
+    box-shadow: -26px 24px 10px  rgba(0, 0, 0, 0.185);
+}
+
+#main-do-cat {
+   background-image: linear-gradient(rgb(177, 177, 177), rgb(112, 112, 112));
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 15px 26px red;
+    border-radius: 10px 80px;
+    min-width: 400px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+   
+}
+
+#sla {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px 30px 30px 30px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.74);
+    min-width: 400px;
+    margin-bottom: 20px;
+
+}
+
+nav {
+    margin-top: 50px;
+}
+
+a {
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+
+a:hover {
+    border: 1px solid black;
+    padding: 8px 10px 0px 10px;
+    border-radius: 5px;
+    background-color: rgb(66, 66, 66);
+    color: gray;
+    
+}
+
+#saudacao {
+    font-size: 1.8em;
+    font-family: arial;
+    font-weight: bold;
+    margin-right: 50px;
+
+
+
+}
+
+span  {
+    color: #ff4242;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgba(65, 12, 12, 0.575);
+}
+
+#Kitty {
+    color: white;
+}
+
+
+.ola {
+    color: white;
+
+}
+
+#video {
+background-color: white;
+border: groove;
+margin: 40px -20px 20px -20px;
+padding: 20px;
+padding-bottom: 56.5%;
+position: relative;
+
+}
+
+#video > iframe {
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+
+}
+
+#principal {
+background-image: linear-gradient(orange,rgb(158, 105, 6),orange, rgb(158, 105, 6));
+max-width: 1000px;
+min-width: none;
+padding: 20px;
+margin: auto;
+}
+
+li {
+border: 1px solid black;
+border-radius: 5px;
+margin: 1px;
+width: 100px;
+color: white;
+}
