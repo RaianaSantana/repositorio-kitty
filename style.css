@@ -51,8 +51,6 @@ header {
 main {
     background-color: rgb(201, 194, 194);
     width: 100%;
-    max-width: 980px;
-    min-width: 400;
     margin: auto;
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
